@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu primeiro Bootstrap</title>
+    <title>Blog Exemplo</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/adriano.css">
 </head>
+
 <body>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-8 col-md-6 text-center text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente excepturi modi, iste possimus eveniet, eligendi animi deserunt maxime voluptatibus, aut dolores sit! Nisi delectus expedita quam, repellendus ea at alias!</div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow">
+        <a class="navbar-brand">adrianoCastro</a>
+        <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="menu" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Notícias</a>
+                </li>
+            </ul>
         </div>
-        <div class="row mt-3">
-            <div class="col-12 col-sm-10 col-md-4 text-justify text-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga explicabo laborum mollitia, beatae neque quaerat necessitatibus, esse impedit exercitationem veniam quod similique architecto et velit magnam veritatis suscipit repellendus non?</div>
-        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid bg-adriano">
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-8 col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi soluta architecto et autem alias non, sed est in atque dolorem labore incidunt ratione nemo vel qui molestiae repudiandae! Fuga, delectus?</div>
-            <div class="col-12 col-sm-8 col-md-6">Laborum autem soluta impedit eligendi, necessitatibus placeat porro distinctio nobis eveniet tempore, reprehenderit officia libero? Facilis dolor quas corporis sequi assumenda consequatur temporibus, illo atque fuga eos cumque aperiam mollitia.</div>
-        </div>
-    </div>
-    
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.js"></script>
 </body>
+
 </html>
